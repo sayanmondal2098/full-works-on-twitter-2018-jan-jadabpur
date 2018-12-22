@@ -40,15 +40,10 @@ print (len(gettempwords()))
 for i in range(0,(len(gettempwords()))):
     print (gettempwords()[i])
 
-
 print ("Ent of For loop")
 #print the word in sorted words
 print (sorted(gettempwords()))
-
 #print the array size
 print(gettempwords().__sizeof__())
 print ("the 2nd word is :"+ gettempwords()[0])
-# # words = ['abort','aborted','abnormal','abound','abundant','accessable']
 
-# for word in gettempwords():
-#     searchword(word,'a.txt')
