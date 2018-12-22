@@ -52,5 +52,3 @@ print ("the 2nd word is :"+ gettempwords()[0])
 
 # for word in gettempwords():
 #     searchword(word,'a.txt')
-
-
