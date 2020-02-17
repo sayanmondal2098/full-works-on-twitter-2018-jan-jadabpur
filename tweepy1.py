@@ -13,10 +13,10 @@ if sys.version_info[0] < 3:
    input = raw_input
 
 ## Twitter credentials
-consumer_key = "qwDf8s8UwrbPnSl70m8C6UQEo"
-consumer_secret = "J9goLBGGMPty3CUfhw5iBFTJqqpV5QuIwzq3d091qiuBBa3PgU"
-access_token = "803838215803248641-QUp4N73MIqKgoiTJgmXJqKOlKRP4tex"
-access_token_secret = "aVZb6FrxQ4dQdp06cn7UKCTckcbxW0oWycUASafMrbJK3"
+consumer_key = "nbMfi26fRPyfYP7cKjppwy2TI"
+consumer_secret = "3o1AgpKjfklbXSZCfskSCjOzZBafiJ7s50LcxHM6SWn4cTmoNY"
+access_token = "803838215803248641-r3Ckp9gADjnq0enmAsWDwDUYzTz2AAf"
+access_token_secret = "6suIFFQYwC6b8xheBP198nqSGobHWO6XjljeyTfXbTLxZ"
 
 ## AYLIEN credentials
 application_id = "18f40e1f"
