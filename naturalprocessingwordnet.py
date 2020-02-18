@@ -1,5 +1,6 @@
 
-#import for synonyms and antonyms
+#import for synonyms and antonymsdate keys
+
 from nltk import word_tokenize
 from nltk.corpus import wordnet
 from nltk.corpus import words
