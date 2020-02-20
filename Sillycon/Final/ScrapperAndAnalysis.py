@@ -1,3 +1,4 @@
+# Twitter Sentiment Analysis
 import sys
 import csv
 import tweepy
@@ -5,20 +6,20 @@ import matplotlib.pyplot as plt
 
 from collections import Counter
 from aylienapiclient import textapi
-from aylienapiclient import textapi
 
 if sys.version_info[0] < 3:
    input = raw_input
 
 ## Twitter credentials
-consumer_key = "qwDf8s8UwrbPnSl70m8C6UQEo"
-consumer_secret = "J9goLBGGMPty3CUfhw5iBFTJqqpV5QuIwzq3d091qiuBBa3PgU"
-access_token = "803838215803248641-QUp4N73MIqKgoiTJgmXJqKOlKRP4tex"
-access_token_secret = "aVZb6FrxQ4dQdp06cn7UKCTckcbxW0oWycUASafMrbJK3"
+consumer_key = "nbMfi26fRPyfYP7cKjppwy2TI"
+consumer_secret = "3o1AgpKjfklbXSZCfskSCjOzZBafiJ7s50LcxHM6SWn4cTmoNY"
+access_token = "803838215803248641-r3Ckp9gADjnq0enmAsWDwDUYzTz2AAf"
+access_token_secret = "6suIFFQYwC6b8xheBP198nqSGobHWO6XjljeyTfXbTLxZ"
 
 ## AYLIEN credentials
 application_id = "18f40e1f"
 application_key = "0aeafb76a5eeb8c6d897283791e69b67"
+
 
 ## set up an instance of Tweepy
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -44,7 +45,7 @@ print("--- Gathered Tweets \n")
 ## open a csv file to store the Tweets and their sentiment 
 file_name = 'Sentiment_Analysis_of_{}_Tweets_About_{}.csv'.format(number, query)
 
-with open(file_name, 'w') as csvfile:
+with open(file_name, 'w', newline='') as csvfile:
    csv_writer = csv.DictWriter(
        f=csvfile,
        fieldnames=["Tweet", "Sentiment"]
@@ -96,3 +97,6 @@ plt.pie(
 
 plt.title("Sentiment of {} Tweets about {}".format(number, query))
 plt.show()
+
+
+

@@ -9,6 +9,8 @@ from naturalprocessingwordnet import getsortedsynonyms,getsynonyms,getsysets,get
 from onlyfilereadwrite import searchwordinposfile, searchwordinnegfile
 
 print ("\n","#"*50,"\n","HI IT'S STARTING OF CSV HANDLER SCRIPT","\n","#"*50)
+
+print("temp words->")
 print (gettempwords())
 def exactmatch(filename,word):
     line = filename.readline()

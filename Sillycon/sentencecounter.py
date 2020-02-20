@@ -74,7 +74,8 @@ def getline():
   return(line)
 
 print(no_sentences())
-print ('//' * 100)
+print ('//' * 50)
 # print(getline())
+print("Temp words are -> ")
 print (gettempwords())
 print ('*' * 100)
