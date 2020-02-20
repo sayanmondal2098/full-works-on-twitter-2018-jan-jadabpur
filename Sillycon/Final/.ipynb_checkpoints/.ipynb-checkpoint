@@ -335,16 +335,29 @@
   },
   {
    "cell_type": "code",
-   "execution_count": null,
+   "execution_count": 30,
    "metadata": {},
-   "outputs": [],
+   "outputs": [
+    {
+     "ename": "ModuleNotFoundError",
+     "evalue": "No module named 'textacy'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mModuleNotFoundError\u001b[0m                       Traceback (most recent call last)",
+      "\u001b[0;32m<ipython-input-30-c58febd1c8e7>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mspacy\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0;32mimport\u001b[0m \u001b[0mtextacy\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mextract\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0murllib\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mrequest\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0;32mimport\u001b[0m \u001b[0mbs4\u001b[0m \u001b[0;32mas\u001b[0m \u001b[0mbs\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+      "\u001b[0;31mModuleNotFoundError\u001b[0m: No module named 'textacy'"
+     ]
+    }
+   ],
    "source": [
     "# EXAMPLE \n",
     "#RUN THE EXAMPLE FROM SUMMY.PY FILE \n",
     "\n",
     "import spacy\n",
     "import textacy.extract\n",
-    "import urllib.request  \n"
+    "import urllib.request  \n",
+    "import bs4 as bs\n"
    ]
   },
   {
